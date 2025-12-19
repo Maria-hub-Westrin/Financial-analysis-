@@ -1,3 +1,6 @@
+## License
+MIT © 2025 Maria Westrin
+
 # Portfolio Risk Report — Transaction-to-Report Pipeline (Python)
 
 A reproducible, bank-style analytics pipeline that goes from **raw transaction rows (BUY/SELL/DIVIDEND)** → **clean panel data** → **risk metrics + exposures** → **shareable HTML report**.
