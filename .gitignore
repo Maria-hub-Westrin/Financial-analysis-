@@ -1,0 +1,36 @@
+# === Python / Jupyter ===
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.pkl
+*.joblib
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Logs / temp ===
+*.log
+tmp/
+temp/
+
+# === Data (undvik att pusha rådata av misstag) ===
+*.csv
+data/
+datasets/
+
+# === Secrets (skydda nycklar) ===
+.env
+.env.*
+*.key
+*.pem
+
+# === Optional: keep HTML report in repo (DO NOT ignore report/) ===
+# report/
+
+# Data: ignorera allt i data/ EXCEPT sample.csv
+data/*
+!data/sample.csv
